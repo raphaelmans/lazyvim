@@ -1,0 +1,18 @@
+# LazyVim/Neovim specific ignores
+lazy-lock.json
+*.log
+debug
+.repro
+.tests
+doc/tags
+
+# Plugin data (should not be committed)
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Test files
+foo.*
+tt.*
+data
