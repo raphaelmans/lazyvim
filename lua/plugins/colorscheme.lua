@@ -7,11 +7,11 @@ return {
     opts = {},
   },
 
-  -- Configure LazyVim to load tokyonight
+  -- Configure LazyVim to load the default tokyonight style
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "tokyonight-night",
+      colorscheme = "tokyonight",
     },
   },
 }
